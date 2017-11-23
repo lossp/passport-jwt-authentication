@@ -1,0 +1,6 @@
+# passport-jwt-authentication
+利用jwt以及passport完成的登陆验证模块
+
+由于没有利用从数据库中抓取以及匹配用户信息，直接在app.js文件里自定义了用户信息，但是通常情况下不能在jwt中附带着敏感重要信息，比如密码
+启动直接node app.js启动就可以，然后利用postman去模拟请求。
+通过路由的direct来完成相关验证
